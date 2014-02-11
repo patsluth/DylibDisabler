@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C6FC0EC8-0CA8-4A39-B0CE-0A83320E9D75</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DylibDisabler</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5B455998-F712-4916-BA34-ECBD0B54E1FC</key>
+		<string>https://github.com/patsluth/DylibDisabler.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DylibDisabler.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5B455998-F712-4916-BA34-ECBD0B54E1FC</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/patsluth/DylibDisabler.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5B455998-F712-4916-BA34-ECBD0B54E1FC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5B455998-F712-4916-BA34-ECBD0B54E1FC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DylibDisabler</string>
+		</dict>
+	</array>
+</dict>
+</plist>
