@@ -10,29 +10,41 @@
 	<string>DylibDisabler</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>5B455998-F712-4916-BA34-ECBD0B54E1FC</key>
+		<key>26715E287E0242D8AAA369CF17454FB8AD2BBA77</key>
 		<string>https://github.com/patsluth/DylibDisabler.git</string>
+		<key>486BE6F979FF35EF0B2073FFD8DB44C43FC9E803</key>
+		<string>https://bitbucket.org/patsluth/i-see-stars.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>DylibDisabler.xcodeproj/project.xcworkspace</string>
+	<string>DylibDisabler.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>5B455998-F712-4916-BA34-ECBD0B54E1FC</key>
+		<key>26715E287E0242D8AAA369CF17454FB8AD2BBA77</key>
 		<string>../..</string>
+		<key>486BE6F979FF35EF0B2073FFD8DB44C43FC9E803</key>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/patsluth/DylibDisabler.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>5B455998-F712-4916-BA34-ECBD0B54E1FC</string>
+	<string>26715E287E0242D8AAA369CF17454FB8AD2BBA77</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>5B455998-F712-4916-BA34-ECBD0B54E1FC</string>
+			<string>486BE6F979FF35EF0B2073FFD8DB44C43FC9E803</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>26715E287E0242D8AAA369CF17454FB8AD2BBA77</string>
 			<key>IDESourceControlWCCName</key>
 			<string>DylibDisabler</string>
 		</dict>

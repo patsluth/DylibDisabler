@@ -16,23 +16,8 @@
 		2E1246D718A9B8A6004D5095 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E1246D518A9B8A6004D5095 /* Main_iPhone.storyboard */; };
 		2E1246DA18A9B8A6004D5095 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E1246D818A9B8A6004D5095 /* Main_iPad.storyboard */; };
 		2E1246DD18A9B8A6004D5095 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1246DC18A9B8A6004D5095 /* ViewController.m */; };
-		2E1246E618A9B8A6004D5095 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1246E518A9B8A6004D5095 /* XCTest.framework */; };
-		2E1246E718A9B8A6004D5095 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1246C318A9B8A6004D5095 /* Foundation.framework */; };
-		2E1246E818A9B8A6004D5095 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1246C718A9B8A6004D5095 /* UIKit.framework */; };
-		2E1246F018A9B8A6004D5095 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E1246EE18A9B8A6004D5095 /* InfoPlist.strings */; };
-		2E1246F218A9B8A6004D5095 /* DylibDisablerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1246F118A9B8A6004D5095 /* DylibDisablerTests.m */; };
 		2E12474518A9C986004D5095 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E12474418A9C986004D5095 /* Images.xcassets */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		2E1246E918A9B8A6004D5095 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2E1246B818A9B8A6004D5095 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2E1246BF18A9B8A6004D5095;
-			remoteInfo = DylibDisabler;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2E1246C018A9B8A6004D5095 /* DylibDisabler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DylibDisabler.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,11 +34,6 @@
 		2E1246D918A9B8A6004D5095 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		2E1246DB18A9B8A6004D5095 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2E1246DC18A9B8A6004D5095 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2E1246E418A9B8A6004D5095 /* DylibDisablerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DylibDisablerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E1246E518A9B8A6004D5095 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		2E1246ED18A9B8A6004D5095 /* DylibDisablerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DylibDisablerTests-Info.plist"; sourceTree = "<group>"; };
-		2E1246EF18A9B8A6004D5095 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2E1246F118A9B8A6004D5095 /* DylibDisablerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DylibDisablerTests.m; sourceTree = "<group>"; };
 		2E12474418A9C986004D5095 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,16 +48,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2E1246E118A9B8A6004D5095 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2E1246E618A9B8A6004D5095 /* XCTest.framework in Frameworks */,
-				2E1246E818A9B8A6004D5095 /* UIKit.framework in Frameworks */,
-				2E1246E718A9B8A6004D5095 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -85,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				2E1246C918A9B8A6004D5095 /* DylibDisabler */,
-				2E1246EB18A9B8A6004D5095 /* DylibDisablerTests */,
 				2E1246C218A9B8A6004D5095 /* Frameworks */,
 				2E1246C118A9B8A6004D5095 /* Products */,
 			);
@@ -95,7 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				2E1246C018A9B8A6004D5095 /* DylibDisabler.app */,
-				2E1246E418A9B8A6004D5095 /* DylibDisablerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,7 +74,6 @@
 				2E1246C318A9B8A6004D5095 /* Foundation.framework */,
 				2E1246C518A9B8A6004D5095 /* CoreGraphics.framework */,
 				2E1246C718A9B8A6004D5095 /* UIKit.framework */,
-				2E1246E518A9B8A6004D5095 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -137,24 +104,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		2E1246EB18A9B8A6004D5095 /* DylibDisablerTests */ = {
-			isa = PBXGroup;
-			children = (
-				2E1246F118A9B8A6004D5095 /* DylibDisablerTests.m */,
-				2E1246EC18A9B8A6004D5095 /* Supporting Files */,
-			);
-			path = DylibDisablerTests;
-			sourceTree = "<group>";
-		};
-		2E1246EC18A9B8A6004D5095 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				2E1246ED18A9B8A6004D5095 /* DylibDisablerTests-Info.plist */,
-				2E1246EE18A9B8A6004D5095 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -175,37 +124,14 @@
 			productReference = 2E1246C018A9B8A6004D5095 /* DylibDisabler.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2E1246E318A9B8A6004D5095 /* DylibDisablerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2E1246F818A9B8A6004D5095 /* Build configuration list for PBXNativeTarget "DylibDisablerTests" */;
-			buildPhases = (
-				2E1246E018A9B8A6004D5095 /* Sources */,
-				2E1246E118A9B8A6004D5095 /* Frameworks */,
-				2E1246E218A9B8A6004D5095 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2E1246EA18A9B8A6004D5095 /* PBXTargetDependency */,
-			);
-			name = DylibDisablerTests;
-			productName = DylibDisablerTests;
-			productReference = 2E1246E418A9B8A6004D5095 /* DylibDisablerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		2E1246B818A9B8A6004D5095 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Pat Sluth";
-				TargetAttributes = {
-					2E1246E318A9B8A6004D5095 = {
-						TestTargetID = 2E1246BF18A9B8A6004D5095;
-					};
-				};
 			};
 			buildConfigurationList = 2E1246BB18A9B8A6004D5095 /* Build configuration list for PBXProject "DylibDisabler" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -221,7 +147,6 @@
 			projectRoot = "";
 			targets = (
 				2E1246BF18A9B8A6004D5095 /* DylibDisabler */,
-				2E1246E318A9B8A6004D5095 /* DylibDisablerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,14 +163,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2E1246E218A9B8A6004D5095 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2E1246F018A9B8A6004D5095 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -259,23 +176,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2E1246E018A9B8A6004D5095 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2E1246F218A9B8A6004D5095 /* DylibDisablerTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		2E1246EA18A9B8A6004D5095 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2E1246BF18A9B8A6004D5095 /* DylibDisabler */;
-			targetProxy = 2E1246E918A9B8A6004D5095 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2E1246CC18A9B8A6004D5095 /* InfoPlist.strings */ = {
@@ -302,14 +203,6 @@
 			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
-		2E1246EE18A9B8A6004D5095 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2E1246EF18A9B8A6004D5095 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -317,7 +210,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -357,7 +249,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -413,48 +304,6 @@
 			};
 			name = Release;
 		};
-		2E1246F918A9B8A6004D5095 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DylibDisabler.app/DylibDisabler";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DylibDisabler/DylibDisabler-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "DylibDisablerTests/DylibDisablerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		2E1246FA18A9B8A6004D5095 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DylibDisabler.app/DylibDisabler";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DylibDisabler/DylibDisabler-Prefix.pch";
-				INFOPLIST_FILE = "DylibDisablerTests/DylibDisablerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -472,15 +321,6 @@
 			buildConfigurations = (
 				2E1246F618A9B8A6004D5095 /* Debug */,
 				2E1246F718A9B8A6004D5095 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2E1246F818A9B8A6004D5095 /* Build configuration list for PBXNativeTarget "DylibDisablerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2E1246F918A9B8A6004D5095 /* Debug */,
-				2E1246FA18A9B8A6004D5095 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
